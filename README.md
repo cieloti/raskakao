@@ -1,10 +1,10 @@
 # raskakao
 
-1. 개요
-Facebook의 CEO인 MARK ZUCKERBERG가 개인 프로젝트로
-Building Jarvis라는 개인비서를 만들었는데
-Facebook Messenger를 이용해서 홈 기기를 제어하는 것을 보고
-카카오톡으로도 할 수 있지 않을까하는 생각에 제작하게 되었습니다.
+## 1. 개요
+### Facebook의 CEO인 MARK ZUCKERBERG가 개인 프로젝트로
+###  Building Jarvis라는 개인비서를 만들었는데
+### Facebook Messenger를 이용해서 홈 기기를 제어하는 것을 보고
+### 카카오톡으로도 할 수 있지 않을까하는 생각에 제작하게 되었습니다.
 
 2. 구조
 구조는아래와 같은 방식으로 이루어져 있으며,
