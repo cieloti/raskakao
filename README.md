@@ -10,7 +10,7 @@ Facebook Messenger를 이용해서 홈 기기를 제어하는 것을 보고
 구조는아래와 같은 방식으로 이루어져 있으며,
 테스트는 Kakaotalk 메시지를 보내면 라즈베리파이에 불이 들어오도록 하였습니다.
 
-## Rasberry Pi - Firebase - Heroku - Kakaotalk
+Rasberry Pi - Firebase - Heroku - Kakaotalk
 
 ## 3. 관련 정보
 * 홍콩과기대 김성훈 교수님께서 이와 비슷한 프로젝트를 진행하셔서 참고하였습니다.
