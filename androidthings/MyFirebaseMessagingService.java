@@ -46,7 +46,6 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
     private static final String TAG = "MyFirebaseMsgService";
 
-    private static final int INTERVAL_BETWEEN_BLINKS_MS = 1000;
     private Handler mHandler = new Handler();
     private Gpio mLedGpio;
     private boolean mLedState = false;
@@ -119,9 +118,6 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
                 // Toggle the GPIO state
                 mLedGpio.setValue(mLedState);
                 Log.d(TAG, "State set to " + mLedState);
-
-                // Reschedule the same runnable in {#INTERVAL_BETWEEN_BLINKS_MS} milliseconds
-                mHandler.postDelayed(mBlinkRunnable, INTERVAL_BETWEEN_BLINKS_MS);
             } catch (IOException e) {
                 Log.e(TAG, "Error on PeripheralIO API", e);
             }
