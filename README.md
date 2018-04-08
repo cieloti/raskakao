@@ -24,7 +24,9 @@ https://github.com/chandong83/kakao_autoreply_wirh_naver_papago
 * 라즈베리파이에 Firebase Cloud Messaging QuickStart app을 설치한다.  
 - https://github.com/firebase/quickstart-android/tree/master/messaging  
   여기의 MainActivity에서 나오는 token 값을 app.js의 firebase app token 에 입력한다.  
-  MyFirebaseMessagingService.java의 onMessageReceived에서 라즈베리파이에 불이 들어오도록 설정한다.  
+  MyFirebaseMessagingService.java의 onMessageReceived에서 라즈베리파이에 불이 들어오도록 설정한다.   
+  라즈베리 설정 관련해서는 github를 참조한다. (https://github.com/androidthings/sample-simplepio)  
+  google-services.json 파일을 받는다. (https://firebase.google.com/docs/android/setup) 
 * heroku/app.js 파일에서 firebase server key, naver id, secret, firebase app token을 입력한다.  
 heroku(https://www.heroku.com/)에서 설명을 따라서 가입을 하고, node.js 파일을 업로드한다.  
 * 카카오톡 플러스친구(https://center-pf.kakao.com/) 에서 새 플러스친구 만들기를하고  
